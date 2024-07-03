@@ -4,7 +4,10 @@
       <div class="flex lg:flex-1">
         <a href="#" class="-m-1.5 p-1.5">
           <span class="sr-only">Your Company</span>
-          <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="">
+          <!-- <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt=""> -->
+           <div class="font-bold text-3xl sm:text-2xl">
+            <span class="text-green-700">Tawsif</span><span>Tamim</span>
+           </div>
         </a>
       </div>
       <div class="flex lg:hidden">
@@ -16,14 +19,13 @@
         </button>
       </div>
       <div class="hidden lg:flex lg:gap-x-12">
-        <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Product</a>
-        <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Features</a>
-        <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Marketplace</a>
-        <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Company</a>
+        <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Home</a>
+        <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Services</a>
+        <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Resume</a>
+        <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Worrk</a>
+        <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Contact</a>
       </div>
-      <div class="hidden lg:flex lg:flex-1 lg:justify-end lg:items-center gap-x-4">
-        <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Log in <span aria-hidden="true">&rarr;</span></a>
-      </div>
+      
     </nav>
     <MobileMenu :isOpen="isMobileMenuOpen" @close="toggleMobileMenu"/>
   </header>
