@@ -19,9 +19,9 @@
         </button>
       </div>
       <div class="hidden lg:flex lg:gap-x-12">
-        <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Home</a>
+        <router-link to="/"  class="text-sm font-semibold leading-6 text-gray-900">Home</router-link>
+        <router-link to="/about" class="text-sm font-semibold leading-6 text-gray-900">About</router-link>
         <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Services</a>
-        <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Resume</a>
         <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Worrk</a>
         <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Contact</a>
       </div>
